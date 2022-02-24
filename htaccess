@@ -9,7 +9,4 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.learnable.ml/$1 [R,L]
-order deny,allow
-deny from all
-allow from 139.218.171.208
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:19274704:
